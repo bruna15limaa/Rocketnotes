@@ -1,8 +1,10 @@
-import { Container, Links } from './styles';
+import { Container, Links,  Content } from './styles';
+
+import { Tag } from '../../components/Tag';
 import { Header } from '../../components/Header';
 import { Button } from '../../components/Button';
 import { Section } from '../../components/Section';
-import { Tag } from '../../components/Tag';
+import { ButtonText } from '../../components/ButtonText';
 
 
 export function Details() {
@@ -10,6 +12,10 @@ export function Details() {
     return (
        <Container>
         <Header/>
+        <main>
+            <Content>
+
+        <ButtonText title="Excluir nota"/>
            
         <Section title="Links úteis"/>
         <Links>
@@ -26,6 +32,9 @@ export function Details() {
         </Section>
 
          <Button title="Voltar"/>
+
+         </Content>
+        </main>
             
         </Container>
     )

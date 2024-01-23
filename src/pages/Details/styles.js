@@ -7,7 +7,13 @@ export const Container = styled.div`
    grid-template-rows: 105px auto;
    grid-template-areas: 
    "header"
-   "content"
+   "content";
+
+   > main {
+     grid-area: content;
+     overflow-y: scroll;
+     padding: 64px 0;
+   }
 `;
 
 export const Links = styled.ul`
@@ -20,5 +26,17 @@ export const Links = styled.ul`
             color: ${({ theme }) => theme.COLORS.WHITE};
         }
     }
+`;
+
+export const Content = styled.div`
+    max-width: 550px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+
+    > button {
+
+    } 
 `;
 
