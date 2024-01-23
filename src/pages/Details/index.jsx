@@ -16,6 +16,19 @@ export function Details() {
             <Content>
 
         <ButtonText title="Excluir nota"/>
+
+        <h1>Introdução ao React</h1>
+             
+        <p>Introdução ao React: Construindo Interfaces Declarativas e Reativas. 
+            React, uma biblioteca JavaScript mantida pelo Facebook, revolucionou 
+            o desenvolvimento de interfaces de usuário ao introduzir um paradigma 
+            declarativo e reativo. Ao contrário das abordagens tradicionais, 
+            React permite que os desenvolvedores construam UIs eficientes e dinâmicas 
+            com mais facilidade.React continua a ser uma escolha popular para o 
+            desenvolvimento de interfaces modernas, capacitando desenvolvedores a 
+            construir aplicativos escaláveis e reativos. Ao compreender os conceitos 
+            fundamentais, é possível criar experiências de usuário excepcionais com 
+            eficiência e elegância.</p>
            
         <Section title="Links úteis"/>
         <Links>
