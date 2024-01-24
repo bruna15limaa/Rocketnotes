@@ -1,4 +1,4 @@
-import { Container } fro './styles.js';
+import { Container } from './styles.js';
 
 export function Input({icon: Icon, ...rest}) {
     return(
