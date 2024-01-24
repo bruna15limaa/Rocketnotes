@@ -3,6 +3,7 @@ import { Container, Brand, Menu, Search, Content, NewNote } from './styles';
 
 import { Header } from '../../components/Header';
 import { Input } from '../../components/Input';
+import { Section } from '../../components/Section';
 
 import { ButtonText } from '../../components/ButtonText';
 
@@ -26,7 +27,9 @@ export function Home() {
             </Search>
 
             <Content>
+              <Section title="Minhas notas">
 
+              </Section>
             </Content>
 
             <NewNote>
