@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Cntainer = styled.div`
+export const Container = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
@@ -19,7 +19,8 @@ export const Cntainer = styled.div`
     color: ${({ theme }) => theme.COLORS.WHITE };
     background: transparent;
     border: 0;
-    &: :placeholder {
+    
+    &:placeholder {
         color: ${({ theme }) => theme.COLORS.GRAY_300 };
     }
 
